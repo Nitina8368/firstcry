@@ -117,7 +117,7 @@
 
 .premium{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     background-color: #EEEEEE;
 }
 
@@ -126,4 +126,103 @@
     padding: 20px;
     text-align: center;
     font-size: 30px;
+}
+
+.slot1{
+    width:26%;
+    background-color: #ffffff;
+    height: 400px;
+    display: inline-block;
+    margin: 1%;
+    box-shadow: 0px 1px 0px grey;
+}
+
+.img_prem{
+    width: 100%;
+    height: 300px;
+}
+
+.offer{
+    font-size:20px;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    float: left;
+    margin-top: 10px;
+    padding-left: 25px;
+    font-weight: 200;
+}
+
+.slot1>span{
+    font-size: 20px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: grey;
+    font-weight: 200;
+}
+
+.new_today{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f02323;
+    font-weight: 200;
+    float: right;
+    padding-right: 15px;
+    padding-top: 12px;
+}
+
+.view_all{
+    background-color: #EEEEEE;
+    width: 80%;
+    height: 100px;
+    /* padding: 0px 145px; */
+    padding: 0px 10%;
+}
+
+.view_all>a{
+    width: 45%;
+    /* height: 100px; */
+    float: left;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+    font-weight: 100;
+}
+
+.boy_girl{
+    width: 100%;
+    height: 450px;
+}
+
+.boy_girl>a>img{
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+
+.footer{
+    background-color: #d5f2f7;
+    width: 100%;
+    height: 500px;
+    padding-top: 1%;
+}
+
+.footer>h2{
+    width: 30%;
+    /* height:50px; */
+    border-radius: 30px;
+    background-color:#ffffff;
+    text-align: center;
+    border: 1px solid #EEEEEE;
+    margin: 0% 35%;
+    font-size: 40px;
+    font-weight: 200;
+    color: #f79a21;
+    padding: 5px 20px;
+    box-shadow: 0px 2px 1px grey;
 }
