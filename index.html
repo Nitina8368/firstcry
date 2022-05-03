@@ -4,20 +4,26 @@
         <link rel="icon" href="images/icon.jpg"/>
         <link rel="stylesheet" href="home.css"/>
     </head>
+    <script>
+        function mode(){
+            let mybody = document.body;
+            mybody.classList.toggle('dark')
+        }
+    </script>
     <!----Body Begins here------>
-    <body>
+    <body class="dark">
         <!----------Header Section---------------->
         <div class="header">
             <div class="logo_search_links">
                 <div class="logo_search">
                     <div class="logo">
-                        <a href="https://nitina8368.github.io/firstcry/" target="_blank"><img src="images/fc_logo.png" alt="Firstcry" /></a>
+                        <a href="index1.html" target="_blank"><img src="images/fc_logo.png" alt="Firstcry" /></a>
                     </div>   
                     <div class="search">
                         <input type="text" placeholder="Search for a Category, Brand or Product"/>
                     </div>
                 </div>
-                <div class="header_links">
+                <div class="header_links ">
                     <ul>
                         <li><a href="location.com">location</a></li>
                         <li><a href="location.com">Support</a></li>
@@ -25,6 +31,7 @@
                         <li><a href="location.com">Login/Registration</a></li>
                         <li><a href="location.com">Wishlist</a></li>
                         <li><a href="location.com">Cart</a></li>
+                        <button onClick="mode()">Dark</button>
                     </ul> 
                 </div>
             </div>

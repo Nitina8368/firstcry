@@ -1,9 +1,17 @@
 /* page css */
+.dark{
+    background-color: black;
+    color: white;
+}
 
-/* body{
-    width: 90%;
-    margin: 0% 5%;
+body{
+    background-color:white;
+}
+
+/* .dark>ul>li>a{
+    color: white !important;
 } */
+
 
 /* Header CSS */
 
@@ -53,6 +61,7 @@
     /* width: 60%; */
     width: 45%;
     float: right;
+    /* background-color: white; */
 }
 
 .header_links>ul>li{
